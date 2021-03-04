@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  background-color: #EDCB54;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  align-items: center;
+}
+
+.navbar .logo{
+  width:  96px;
+  height: 60px;
+  grid-column: 2 / 3;
+}
+
+.navbar .menu{
+  grid-column: 4/7;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar .menu li{
+  list-style: none;
+}
+
+.navbar .menu a{
+  text-decoration: none;
+  color: #181818;
+  cursor: pointer;
+}
+
+.navbar .menu-bar{
+  display: none;
+}
+
+.navbar .shoping{
+  grid-column: 8/9;
+}
+
