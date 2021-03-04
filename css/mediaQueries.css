@@ -30,4 +30,15 @@
     .navbar .menu-toggle {
         transform: translateX(70%);
     }
+
+    /* Seccion Main*/
+
+    .hero .info-content{
+        grid-column: 2/10;
+        grid-row: 4/8;
+    }
+
+    .hero h1{
+        font-size: 3.5em;
+    }
 }
