@@ -41,4 +41,14 @@
     .hero h1{
         font-size: 3.5em;
     }
+
+    /*Seccion Footer*/
+
+    .footer .follow-me{
+        display: none;
+    }
+
+    .footer .social-network{
+        text-align: center;
+    }
 }

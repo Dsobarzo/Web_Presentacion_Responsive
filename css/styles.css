@@ -8,6 +8,7 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  overflow: hidden;
 }
 
 .navbar {
@@ -54,7 +55,7 @@ body {
 /* Seccion Main*/
 
 .hero{
-  height: 80vh;
+  height: 83vh;
   background-image: linear-gradient(rgba(16, 16, 16, .8), rgba(16, 16, 16, .8)), url(../img/bg.jpg);
   background-size: cover;
   max-width: 100%;
@@ -98,4 +99,50 @@ body {
 
 .hero .btn:hover{
   background-color:#EDCB54;
+}
+
+/*Seccion Footer*/
+
+.footer {
+  display: grid;
+  height: 80px;
+  align-items: center;
+  background-color: #181818;
+  color: white;
+  grid-template-areas:
+  "listen-online follow-me social-network";
+}
+
+.footer .listen-online{
+  grid-template-areas: listen-online;
+  display: flex;
+  justify-content: center;
+  background-color: #EDCB54;
+  padding: 26px;
+  color: #181818;
+}
+
+.footer .listen-online .fas{
+  font-size: 1.5em;
+  margin-right: 15px;
+}
+
+.footer .follow-me{
+  grid-template-areas: follow-me;
+  text-align: center;
+}
+
+.footer .social-network{
+  grid-template-areas: "social-network";
+  font-size: 1.3em;
+}
+
+.footer .social-network .fab{
+  margin-right: 25px;
+  color: #EDCB54;
+}
+
+.footer .social-network .fab:hover{
+  color: white;
+  cursor: pointer;
 }
