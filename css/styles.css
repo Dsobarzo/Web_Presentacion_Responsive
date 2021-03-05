@@ -52,6 +52,9 @@ body {
   grid-column: 8/9;
 }
 
+
+
+
 /* Seccion Main*/
 
 .hero{
@@ -99,6 +102,7 @@ body {
 
 .hero .btn:hover{
   background-color:#EDCB54;
+  cursor: pointer;
 }
 
 /*Seccion Footer*/
